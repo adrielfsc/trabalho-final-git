@@ -2,7 +2,10 @@
   "name": "tarefa-final-git",
   "version": "0.0.1",
   "description": "",
-  "keywords": "",
+  "keywords": [
+    "utfpr",
+    "git"
+  ],
   "license": "",
   "author": "",
   "scripts": {
@@ -13,5 +16,10 @@
   },
   "devDependencies": {
     "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1"
+
   }
 }

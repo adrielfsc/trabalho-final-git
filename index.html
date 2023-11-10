@@ -33,15 +33,9 @@
 
             <div>
                 <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
-                    <div class="card-body">
+                    <div class="card-body" id="lista_jogos">
                         <h5 class="card-title">Meus Jogos</h5>
                         <h6 class="card-subtitle mb-2 text-white-50">Os games que eu mais curto jogar!</h6>
-                        <a target="_blank"
-                        href="https://www.twitch.tv/directory">
-                        <img src="https://ambientesdigital.com/wp-content/uploads/2013/03/250x250.jpg"
-                        alt="Foto do jogo B na Twitch"
-                        style="max-width: 9rem;">
-                    </a>
                     </div>
                 </div>
 
@@ -51,7 +45,7 @@
                   <div class="card-body">
                       <h5 class="card-title">Novos Jogos</h5>
                       <h6 class="card-subtitle mb-2 text-white-50">Adicione novos jogos!</h6>
-                      <form>
+                      <form  onsubmit="adicionarLinha();return false;">
                         <div class="mb-3">
                           <input type="text" class="form-control" id="input_imagem"placeholder="Informe a URL da imagem do jogo...">
                         </div>
@@ -105,5 +99,6 @@
                     </ul>
                 </div>
         </div>
+        <script src="js/main.js"></script>
     </body>
 </html>

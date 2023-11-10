@@ -45,23 +45,24 @@
                     </div>
                 </div>
 
-                <div class="container d-flex flex-column ">
-                  <div class="row card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
-                      <div class="col card-body">
-                          <h5 class="card-title">Adicionar novos jogos</h5>
-                          <h6 class="card-subtitle mb-2 text-white-50">Utilize o menu abaixo pra adicionar novos jogos na lista de "meus jogos"!</h6>
-                            <div class="row">
-                              <div class="col-12 col-md-7">
-                                <div class="d-flex align-items-center">
-                                  <button id="botao-adicionar" type="button" class="btn btn-success">Adicionar</button> <br/>
-                                  <!-- <input type="text" class="col-auto form-control" placeholder="Informe o link do jogo na twitch..."/> <br/> -->
-                                  <input type="text" class="col-auto form-control" placeholder="Informe a URL da imagem do jogo..."/>
-                                </div>
-                              </div>
-                            </div>
-                      </div>
+
+            <div>
+              <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
+                  <div class="card-body">
+                      <h5 class="card-title">Novos Jogos</h5>
+                      <h6 class="card-subtitle mb-2 text-white-50">Adicione novos jogos!</h6>
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="input_imagem"placeholder="Informe a URL da imagem do jogo...">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="input_twitch" placeholder="Informe o link do jogo na twitch...">
+                        </div>
+                        <button type="submit" class="btn btn-success" id="btn_adicionar">Adicionar</button>
+                      </form>
+                  </a>
                   </div>
-                </div>
+              </div>
 
                 <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
                     <div class="card-body">
@@ -103,7 +104,6 @@
                         </li>
                     </ul>
                 </div>
-
         </div>
     </body>
 </html>

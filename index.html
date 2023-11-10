@@ -29,17 +29,13 @@
                 alt="Foto de perfil" style="max-width: 10rem;">
         </div>
 
-        <div>
-            <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Meus Jogos</h5>
-                    <h6 class="card-subtitle mb-3 text-white-50">Os games que eu mais curto jogar!</h6>
-                    <a target="_blank" href="https://www.twitch.tv/directory/category/grand-theft-auto-v">
-                        <img src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg"
-                            alt="Foto do jogo B na Twitch" style="max-width: 8rem;">
-                    </a>
+            <div>
+                <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
+                    <div class="card-body" id="lista_jogos">
+                        <h5 class="card-title">Meus Jogos</h5>
+                        <h6 class="card-subtitle mb-2 text-white-50">Os games que eu mais curto jogar!</h6>
+                    </div>
                 </div>
-            </div>
 
 
             <div>
@@ -47,7 +43,7 @@
                     <div class="card-body">
                         <h5 class="card-title mb-3">Novos Jogos</h5>
                         <h6 class="card-subtitle mb-3 text-white-50">Adicione novos jogos!</h6>
-                        <form>
+                        <form  onsubmit="adicionarLinha();return false;">
                             <div class="mb-3">
                                 <input type="text" class="form-control" id="input_imagem"
                                     placeholder="Informe a URL da imagem do jogo na twitch...">
@@ -114,7 +110,7 @@
                             </a>
                     </div>
                 </div>
-            </div>
-</body>
-
+        </div>
+        <script src="js/main.js"></script>
+    </body>
 </html>

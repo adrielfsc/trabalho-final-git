@@ -1,0 +1,32 @@
+//Selecionar os elementos HTML de entrada e saída
+const botaoAdicionar = document.querySelector('#btn_adicionar');
+const listaJogos = document.querySelector('#lista_jogos');
+const inputImg = document.querySelector('#input_imagem')
+const inputTwitch = document.querySelector('#input_twitch')
+
+function adicionarLinha(){
+
+  if(inputImg.value!=='' && inputTwitch.value !==''){
+    const divJogo = document.createElement('div');
+    divJogo.setAttribute('style','display:inline-block;position:relative;')
+
+    const link = document.createElement('a');
+
+
+    link.setAttribute("target", "_blank")
+    link.setAttribute("href", inputTwitch.value)
+
+    const img = document.createElement('img');
+    img.setAttribute('src',inputImg.value);
+    img.setAttribute('alt','Foto do jogo B na Twitch')
+    img.setAttribute('style', 'max-width: 9rem;')
+    img.setAttribute('class', 'p-1')
+
+
+    link.appendChild(img);
+    divJogo.appendChild(link);
+    listaJogos.appendChild(divJogo);
+
+  }
+
+}

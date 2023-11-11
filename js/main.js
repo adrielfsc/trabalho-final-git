@@ -15,7 +15,7 @@ function adicionarLinha() {
     botao.innerHTML = `
     <i class="bi bi-x-circle"></i>
     `
-    botao.setAttribute('style', 'position:absolute;top:0;right:0;')
+    botao.setAttribute('style', 'position:absolute;bottom:0;right:0;')
     const link = document.createElement('a');
 
 

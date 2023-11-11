@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-    <style>
+<style>
     body {
         background-image: url('background.jpg');
         background-repeat: no-repeat;
         background-size: cover;
     }
-    </style>
+</style>
 
-    <head>
+<head>
 
-        <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Trabalho Final Git/Github</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Final Git/Github</title>
 
-    </head>
+</head>
 
-    <body>
-        <div class="d-flex flex-column align-items-center">
+<body>
+    <div class="d-flex flex-column align-items-center">
 
-            <div class="my-5 container row justify-content-center">
-                <img src="https://i.pinimg.com/474x/61/f4/71/61f4719ddfeeda214b6d8da3e321ec39.jpg"
-                class="rounded-circle"
-                alt="Foto de perfil"
-                style="max-width: 10rem;">
-            </div>
+        <div class="my-5 container row justify-content-center">
+            <img src="https://i.pinimg.com/474x/61/f4/71/61f4719ddfeeda214b6d8da3e321ec39.jpg" class="rounded-circle"
+                alt="Foto de perfil" style="max-width: 10rem;">
+        </div>
 
             <div>
                 <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
@@ -41,62 +39,74 @@
 
 
             <div>
-              <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
-                  <div class="card-body">
-                      <h5 class="card-title">Novos Jogos</h5>
-                      <h6 class="card-subtitle mb-2 text-white-50">Adicione novos jogos!</h6>
-                      <form  onsubmit="adicionarLinha();return false;">
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="input_imagem"placeholder="Informe a URL da imagem do jogo...">
-                        </div>
-                        <div class="mb-3">
-                          <input type="text" class="form-control" id="input_twitch" placeholder="Informe o link do jogo na twitch...">
-                        </div>
-                        <button type="submit" class="btn btn-success" id="btn_adicionar">Adicionar</button>
-                      </form>
-                  </a>
-                  </div>
-              </div>
-
                 <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
                     <div class="card-body">
-                        <h5 class="card-title">Canais e streamers</h5>
-                        <h6 class="card-subtitle mb-2 text-white-50">Lista de canais e transmissões que não perco!</h6>
-                        <a target="_blank"
-                            href="https://www.twitch.tv/directory">
-                            <img src="https://ambientesdigital.com/wp-content/uploads/2013/03/250x250.jpg"
-                            alt="Foto do jogo B na Twitch"
-                            style="max-width: 9rem;">
+                        <h5 class="card-title mb-3">Novos Jogos</h5>
+                        <h6 class="card-subtitle mb-3 text-white-50">Adicione novos jogos!</h6>
+                        <form onsubmit="adicionarLinha();return false;">
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="input_imagem" placeholder="Informe a URL da imagem do jogo na twitch...">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="input_twitch" placeholder="Informe o link do jogo na twitch...">
+                            </div>
+                            <button type="submit" class="btn btn-success" id="btn_adicionar">Adicionar</button>
+                        </form>
                         </a>
                     </div>
                 </div>
 
-                <div class="card text-bg-dark card mb-5 border-bottom-0 border-start-0 border-end-0 border-light border-5">
+                <div class="card text-bg-dark mb-5 border-bottom-0 border-start-0 border-end-0 border-5 border-light">
                     <div class="card-body">
-                        <h5 class="card-title">Minhas redes</h5>
-                        <h6 class="card-subtitle mb-2 text-white-50"">Se conecte comigo agora mesmo!</h6>
-                        <a
-                            class="link-offset-2 link-underline link-underline-opacity-0"
-                            href="https://www.twitch.tv/directory">
-                            <i class="bi bi-twitch" style="font-size: 2rem; color: #b021b3"></i>
+                        <h5 class="card-title mb-3">Canais e streamers</h5>
+                        <h6 class="card-subtitle mb-3 text-white-50">Lista de canais e transmissões que não perco!</h6>
+                        <a target="_blank" href="https://www.twitch.tv/alanzoka"
+                            class="link-underline link-underline-opacity-0">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/64d44235-1dee-4bca-95da-bee1ee96eea3-profile_image-70x70.png"
+                                alt="Foto do jogo B na Twitch" class="rounded-circle me-3" ; style="max-width: 4rem;">
                         </a>
 
-                        <a
-                            class="link-offset-2 link-underline link-underline-opacity-0"
-                            href="https://www.twitch.tv/directory">
-                            <i class="bi bi-instagram" style="font-size: 2rem; color: #b021b3"></i>
+                        <a target="_blank" href="https://www.twitch.tv/cellbit"
+                            class="link-underline link-underline-opacity-0">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/0595cdd0-65a7-4fa3-996d-323cf3a54be1-profile_image-70x70.png"
+                                alt="Foto do jogo B na Twitch" class="rounded-circle me-3" ; style="max-width: 4rem;">
                         </a>
 
-                        <a
-                            class="link-offset-2 link-underline link-underline-opacity-0"
-                            href="https://www.twitch.tv/directory">
-                            <i class="bi bi-twitter-x" style="font-size: 2rem; color: #b021b3"></i>
+                        <a target="_blank" href="https://www.twitch.tv/gaules"
+                            class="link-underline link-underline-opacity-0">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-70x70.png"
+                                alt="Foto do jogo B na Twitch" class="rounded-circle me-3" ; style="max-width: 4rem;">
+                        </a>
+
+                        <a target="_blank" href="https://www.twitch.tv/rakin"
+                            class="link-underline link-underline-opacity-0">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/4d2e7f32-73cb-47bd-8152-ca60811dffa6-profile_image-70x70.png"
+                                alt="Foto do jogo B na Twitch" class="rounded-circle me-3" ; style="max-width: 3rem;">
                         </a>
                     </div>
-                            <img src="https://ambientesdigital.com/wp-content/uploads/2013/03/250x250.jpg" alt="Foto do jogo C na Twitch">
+                </div>
+
+                <div
+                    class="card text-bg-dark card mb-5 border-bottom-0 border-start-0 border-end-0 border-light border-5">
+                    <div class="card-body">
+                        <h5 class="card-title mb-3">Minhas redes</h5>
+                        <h6 class="card-subtitle mb-3 text-white-50"">Se conecte comigo agora mesmo!</h6>
+                            
+                            <a target=" _blank" class="link-underline link-underline-opacity-0 me-3"
+                            href="https://www.twitch.tv/">
+                            <i class="bi bi-twitch" style="font-size: 2rem; color: #b021b3"></i>
                             </a>
-                        </li>
-                    </ul>
+
+                            <a target="_blank" class="link-underline link-underline-opacity-0 me-3"
+                                href="https://www.instagram.com/">
+                                <i class="bi bi-instagram" style="font-size: 2rem; color: #b021b3"></i>
+                            </a>
+
+                            <a target="_blank" class="link-underline link-underline-opacity-0 me-3"
+                                href="https://twitter.com/home?lang=pt">
+                                <i class="bi bi-twitter-x" style="font-size: 2rem; color: #b021b3"></i>
+                            </a>
+                    </div>
                 </div>
         </div>
         <script src="js/main.js"></script>

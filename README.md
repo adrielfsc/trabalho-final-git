@@ -12,7 +12,7 @@
 
 ![preview](preview.png)
 
-> A imagem representa uma versão ainda em desenvolvimento!
+> Matéria ministrada pelo professor Rui Pimentel Leite
 
 <h2>📄 Descrição<a name="descrição"></a></h2>
 Projeto final realizado para a matéria de Git/GitHub da Pós-graduação em desenvolvimento WEB com frameworks modernos

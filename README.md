@@ -10,7 +10,11 @@
     <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-![preview](preview.png)
+<div align="center">
+
+![Preview](preview.png)
+
+</div>
 
 > Matéria ministrada pelo professor Rui Pimentel Leite
 
